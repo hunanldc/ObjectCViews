@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes
+END
+AztecReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/AztecReader.h
+END
+MultiFormatOneDReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/MultiFormatOneDReader.h
+END
+FormatReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/FormatReader.mm
+END
+CBarcodeFormat.mm
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/CBarcodeFormat.mm
+END
+ArrayAndStringCategories.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/ArrayAndStringCategories.h
+END
+DecoderDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/DecoderDelegate.h
+END
+QRCodeReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/QRCodeReader.h
+END
+TwoDDecoderResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/TwoDDecoderResult.h
+END
+DataMatrixReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/DataMatrixReader.mm
+END
+ArrayAndStringCategories.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/ArrayAndStringCategories.m
+END
+MultiFormatUPCEANReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/MultiFormatUPCEANReader.mm
+END
+Decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/Decoder.h
+END
+NSString+HTML.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/NSString+HTML.h
+END
+TwoDDecoderResult.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/TwoDDecoderResult.m
+END
+ZXingWidgetController.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/ZXingWidgetController.h
+END
+MultiFormatReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/MultiFormatReader.mm
+END
+FormatReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/FormatReader.h
+END
+CBarcodeFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/CBarcodeFormat.h
+END
+AztecReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/AztecReader.mm
+END
+NSString+HTML.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/NSString+HTML.m
+END
+OverlayView.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/OverlayView.h
+END
+ZXingWidgetController.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/ZXingWidgetController.m
+END
+MultiFormatOneDReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/MultiFormatOneDReader.mm
+END
+DataMatrixReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/DataMatrixReader.h
+END
+OverlayView.m
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/OverlayView.m
+END
+MultiFormatUPCEANReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/MultiFormatUPCEANReader.h
+END
+QRCodeReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/QRCodeReader.mm
+END
+Decoder.mm
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Classes/Decoder.mm
+END

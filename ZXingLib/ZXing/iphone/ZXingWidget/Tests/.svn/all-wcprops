@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests
+END
+AddressBookAUResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/AddressBookAUResultParserTests.m
+END
+EmailDoCoMoResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/EmailDoCoMoResultParserTests.m
+END
+BookmarkDoCoMoTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/BookmarkDoCoMoTests.m
+END
+ISBNResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/ISBNResultParserTests.m
+END
+MeCardParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/MeCardParserTests.m
+END
+EmailAddressResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/EmailAddressResultParserTests.m
+END
+BizcardResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/BizcardResultParserTests.m
+END
+VCardResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/VCardResultParserTests.m
+END
+SMTPResultParserTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/iphone/ZXingWidget/Tests/SMTPResultParserTests.m
+END

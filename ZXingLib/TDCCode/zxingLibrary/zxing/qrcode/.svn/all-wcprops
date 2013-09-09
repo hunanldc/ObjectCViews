@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode
+END
+ErrorCorrectionLevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.h
+END
+FormatInformation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/FormatInformation.cpp
+END
+QRCodeReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/QRCodeReader.cpp
+END
+FormatInformation.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/FormatInformation.h
+END
+QRCodeReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/QRCodeReader.h
+END
+Version.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/Version.cpp
+END
+ErrorCorrectionLevel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.cpp
+END
+Version.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/qrcode/Version.h
+END

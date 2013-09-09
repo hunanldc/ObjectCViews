@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/aztec
+END
+AztecReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/aztec/AztecReader.h
+END
+AztecDetectorResult.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/aztec/AztecDetectorResult.cpp
+END
+AztecDetectorResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/aztec/AztecDetectorResult.h
+END
+AztecReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/SMT3GSolution/!svn/ver/2243/SmartClient_iPhone/branches/SMTMSSiOS1.7/Supports/ZXing/cpp/core/src/zxing/aztec/AztecReader.cpp
+END

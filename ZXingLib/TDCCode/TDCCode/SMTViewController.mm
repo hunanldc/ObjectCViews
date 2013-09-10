@@ -29,8 +29,9 @@
 
 - (void)viewDidLoad
 {
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    UIButton *button = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
     button.frame = CGRectMake(0, 0, 100, 40);
+    button.backgroundColor = [UIColor blackColor];
     [button addTarget:self action:@selector(btPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     [button release];
@@ -60,6 +61,19 @@
 //    widController.soundToPlay =
 //    [NSURL fileURLWithPath:[mainBundle pathForResource:@"beep-beep" ofType:@"aiff"] isDirectory:NO];
 }
+
+- (void)zxingController:(ZXingWidgetController*)controller didScanResult:(NSString *)result
+{
+    NSLog(@"%@",result);
+    [controller.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)zxingControllerDidCancel:(ZXingWidgetController*)controller
+{
+    [controller.navigationController  popViewControllerAnimated:YES];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

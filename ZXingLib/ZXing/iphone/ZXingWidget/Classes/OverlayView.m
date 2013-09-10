@@ -79,7 +79,7 @@ static const CGFloat kLicenseButtonPadding = 10;
       if ([self.cancelButtonTitle length] > 0 ) {
         [cancelButton setTitle:self.cancelButtonTitle forState:UIControlStateNormal];
       } else {
-        [cancelButton setTitle:NSLocalizedStringWithDefaultValue(@"OverlayView cancel button title", nil, [NSBundle mainBundle], @"取消", @"取消") forState:UIControlStateNormal];
+        [cancelButton setTitle:NSLocalizedString(@"Cancel",@"取消") forState:UIControlStateNormal];
       }
       [cancelButton addTarget:self action:@selector(cancel:) forControlEvents:UIControlEventTouchUpInside];
       [self addSubview:cancelButton];
@@ -167,8 +167,8 @@ static const CGFloat kLicenseButtonPadding = 10;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)drawRect:(CGRect)rect {
 	[super drawRect:rect];
-  if (displayedMessage == nil) {
-    self.displayedMessage = NSLocalizedStringWithDefaultValue(@"OverlayView displayed message", nil, [NSBundle mainBundle], @"请将二维码置于扫描框内", @"请将二维码置于扫描框内");
+  if (displayedMessage == nil) {      
+    self.displayedMessage = NSLocalizedString(@"Please put the 2D code in the scans box",@"Please put the 2D code in the scans box");
   }
 	CGContextRef c = UIGraphicsGetCurrentContext();
   

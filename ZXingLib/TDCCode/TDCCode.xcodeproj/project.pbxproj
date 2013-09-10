@@ -24,7 +24,6 @@
 		044A90D0178E8205000DB02F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A90CF178E8205000DB02F /* CoreVideo.framework */; };
 		044A90D2178E820F000DB02F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A90D1178E820F000DB02F /* AudioToolbox.framework */; };
 		044A90D4178E8218000DB02F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A90D3178E8218000DB02F /* AVFoundation.framework */; };
-		044A90DD178E8911000DB02F /* zxing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A90DC178E8911000DB02F /* zxing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +49,6 @@
 		044A90CF178E8205000DB02F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		044A90D1178E820F000DB02F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		044A90D3178E8218000DB02F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		044A90DC178E8911000DB02F /* zxing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = zxing.framework; path = ../zxing.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 				044A90CC178E81EA000DB02F /* CoreMedia.framework in Frameworks */,
 				044A90A4178E8070000DB02F /* UIKit.framework in Frameworks */,
 				044A90A6178E8070000DB02F /* Foundation.framework in Frameworks */,
-				044A90DD178E8911000DB02F /* zxing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +90,6 @@
 		044A90A2178E8070000DB02F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				044A90DC178E8911000DB02F /* zxing.framework */,
 				044A90D3178E8218000DB02F /* AVFoundation.framework */,
 				044A90D1178E820F000DB02F /* AudioToolbox.framework */,
 				044A90CF178E8205000DB02F /* CoreVideo.framework */,
@@ -302,6 +298,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -325,6 +322,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

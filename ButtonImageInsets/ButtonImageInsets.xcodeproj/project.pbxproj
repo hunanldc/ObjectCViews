@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A778F1DC17DEB26300385C6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A778F1DB17DEB26300385C6A /* UIKit.framework */; };
+		A778F1DE17DEB26300385C6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A778F1DD17DEB26300385C6A /* Foundation.framework */; };
+		A778F1E017DEB26300385C6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A778F1DF17DEB26300385C6A /* CoreGraphics.framework */; };
+		A778F1E617DEB26300385C6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A778F1E417DEB26300385C6A /* InfoPlist.strings */; };
+		A778F1E817DEB26300385C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A778F1E717DEB26300385C6A /* main.m */; };
+		A778F1EC17DEB26300385C6A /* SMTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A778F1EB17DEB26300385C6A /* SMTAppDelegate.m */; };
+		A778F1EE17DEB26300385C6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A778F1ED17DEB26300385C6A /* Default.png */; };
+		A778F1F017DEB26300385C6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A778F1EF17DEB26300385C6A /* Default@2x.png */; };
+		A778F1F217DEB26300385C6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A778F1F117DEB26300385C6A /* Default-568h@2x.png */; };
+		A778F1F517DEB26300385C6A /* SMTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A778F1F417DEB26300385C6A /* SMTViewController.m */; };
+		A778F1F817DEB26300385C6A /* SMTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A778F1F617DEB26300385C6A /* SMTViewController_iPhone.xib */; };
+		A778F1FB17DEB26300385C6A /* SMTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A778F1F917DEB26300385C6A /* SMTViewController_iPad.xib */; };
+		A778F20217DEB2B500385C6A /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = A778F20117DEB2B500385C6A /* icon_add.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A778F1D817DEB26300385C6A /* ButtonImageInsets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonImageInsets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A778F1DB17DEB26300385C6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A778F1DD17DEB26300385C6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A778F1DF17DEB26300385C6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A778F1E317DEB26300385C6A /* ButtonImageInsets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonImageInsets-Info.plist"; sourceTree = "<group>"; };
+		A778F1E517DEB26300385C6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A778F1E717DEB26300385C6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A778F1E917DEB26300385C6A /* ButtonImageInsets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonImageInsets-Prefix.pch"; sourceTree = "<group>"; };
+		A778F1EA17DEB26300385C6A /* SMTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTAppDelegate.h; sourceTree = "<group>"; };
+		A778F1EB17DEB26300385C6A /* SMTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTAppDelegate.m; sourceTree = "<group>"; };
+		A778F1ED17DEB26300385C6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A778F1EF17DEB26300385C6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A778F1F117DEB26300385C6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A778F1F317DEB26300385C6A /* SMTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTViewController.h; sourceTree = "<group>"; };
+		A778F1F417DEB26300385C6A /* SMTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTViewController.m; sourceTree = "<group>"; };
+		A778F1F717DEB26300385C6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMTViewController_iPhone.xib; sourceTree = "<group>"; };
+		A778F1FA17DEB26300385C6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMTViewController_iPad.xib; sourceTree = "<group>"; };
+		A778F20117DEB2B500385C6A /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A778F1D517DEB26300385C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A778F1DC17DEB26300385C6A /* UIKit.framework in Frameworks */,
+				A778F1DE17DEB26300385C6A /* Foundation.framework in Frameworks */,
+				A778F1E017DEB26300385C6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A778F1CF17DEB26300385C6A = {
+			isa = PBXGroup;
+			children = (
+				A778F1E117DEB26300385C6A /* ButtonImageInsets */,
+				A778F1DA17DEB26300385C6A /* Frameworks */,
+				A778F1D917DEB26300385C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A778F1D917DEB26300385C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A778F1D817DEB26300385C6A /* ButtonImageInsets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A778F1DA17DEB26300385C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A778F1DB17DEB26300385C6A /* UIKit.framework */,
+				A778F1DD17DEB26300385C6A /* Foundation.framework */,
+				A778F1DF17DEB26300385C6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A778F1E117DEB26300385C6A /* ButtonImageInsets */ = {
+			isa = PBXGroup;
+			children = (
+				A778F1EA17DEB26300385C6A /* SMTAppDelegate.h */,
+				A778F1EB17DEB26300385C6A /* SMTAppDelegate.m */,
+				A778F1F317DEB26300385C6A /* SMTViewController.h */,
+				A778F1F417DEB26300385C6A /* SMTViewController.m */,
+				A778F1F617DEB26300385C6A /* SMTViewController_iPhone.xib */,
+				A778F20117DEB2B500385C6A /* icon_add.png */,
+				A778F1F917DEB26300385C6A /* SMTViewController_iPad.xib */,
+				A778F1E217DEB26300385C6A /* Supporting Files */,
+			);
+			path = ButtonImageInsets;
+			sourceTree = "<group>";
+		};
+		A778F1E217DEB26300385C6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A778F1E317DEB26300385C6A /* ButtonImageInsets-Info.plist */,
+				A778F1E417DEB26300385C6A /* InfoPlist.strings */,
+				A778F1E717DEB26300385C6A /* main.m */,
+				A778F1E917DEB26300385C6A /* ButtonImageInsets-Prefix.pch */,
+				A778F1ED17DEB26300385C6A /* Default.png */,
+				A778F1EF17DEB26300385C6A /* Default@2x.png */,
+				A778F1F117DEB26300385C6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A778F1D717DEB26300385C6A /* ButtonImageInsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A778F1FE17DEB26300385C6A /* Build configuration list for PBXNativeTarget "ButtonImageInsets" */;
+			buildPhases = (
+				A778F1D417DEB26300385C6A /* Sources */,
+				A778F1D517DEB26300385C6A /* Frameworks */,
+				A778F1D617DEB26300385C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonImageInsets;
+			productName = ButtonImageInsets;
+			productReference = A778F1D817DEB26300385C6A /* ButtonImageInsets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A778F1D017DEB26300385C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SMT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = hunanldc;
+			};
+			buildConfigurationList = A778F1D317DEB26300385C6A /* Build configuration list for PBXProject "ButtonImageInsets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A778F1CF17DEB26300385C6A;
+			productRefGroup = A778F1D917DEB26300385C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A778F1D717DEB26300385C6A /* ButtonImageInsets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A778F1D617DEB26300385C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A778F1E617DEB26300385C6A /* InfoPlist.strings in Resources */,
+				A778F1EE17DEB26300385C6A /* Default.png in Resources */,
+				A778F1F017DEB26300385C6A /* Default@2x.png in Resources */,
+				A778F1F217DEB26300385C6A /* Default-568h@2x.png in Resources */,
+				A778F1F817DEB26300385C6A /* SMTViewController_iPhone.xib in Resources */,
+				A778F1FB17DEB26300385C6A /* SMTViewController_iPad.xib in Resources */,
+				A778F20217DEB2B500385C6A /* icon_add.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A778F1D417DEB26300385C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A778F1E817DEB26300385C6A /* main.m in Sources */,
+				A778F1EC17DEB26300385C6A /* SMTAppDelegate.m in Sources */,
+				A778F1F517DEB26300385C6A /* SMTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A778F1E417DEB26300385C6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A778F1E517DEB26300385C6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A778F1F617DEB26300385C6A /* SMTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A778F1F717DEB26300385C6A /* en */,
+			);
+			name = SMTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A778F1F917DEB26300385C6A /* SMTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A778F1FA17DEB26300385C6A /* en */,
+			);
+			name = SMTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A778F1FC17DEB26300385C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A778F1FD17DEB26300385C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A778F1FF17DEB26300385C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonImageInsets/ButtonImageInsets-Prefix.pch";
+				INFOPLIST_FILE = "ButtonImageInsets/ButtonImageInsets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A778F20017DEB26300385C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonImageInsets/ButtonImageInsets-Prefix.pch";
+				INFOPLIST_FILE = "ButtonImageInsets/ButtonImageInsets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A778F1D317DEB26300385C6A /* Build configuration list for PBXProject "ButtonImageInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A778F1FC17DEB26300385C6A /* Debug */,
+				A778F1FD17DEB26300385C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A778F1FE17DEB26300385C6A /* Build configuration list for PBXNativeTarget "ButtonImageInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A778F1FF17DEB26300385C6A /* Debug */,
+				A778F20017DEB26300385C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A778F1D017DEB26300385C6A /* Project object */;
+}

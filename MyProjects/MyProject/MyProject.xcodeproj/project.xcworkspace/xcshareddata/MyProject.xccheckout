@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8283FFB4-E62B-4C1A-AE97-6656F4916BA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C47421A8-4426-4840-A6FD-29AD3601FB1F</key>
+		<string>https://github.com/hunanldc/ObjectCViews/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyProjects/MyProject/MyProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C47421A8-4426-4840-A6FD-29AD3601FB1F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>C47421A8-4426-4840-A6FD-29AD3601FB1F</key>
+		<string>https://github.com/hunanldc/ObjectCViews</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hunanldc/ObjectCViews/trunk/MyProjects/MyProject/MyProject.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C47421A8-4426-4840-A6FD-29AD3601FB1F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C47421A8-4426-4840-A6FD-29AD3601FB1F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjectCViews (trunk)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

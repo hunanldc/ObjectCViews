@@ -50,6 +50,16 @@
     [self.view addSubview:self.text];
 
 }
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    UIViewController *controller = [[UIViewController alloc] init];
+    controller.view.backgroundColor = [UIColor greenColor];
+    controller.view.frame = CGRectMake(0, 64.f, 320, 300);
+    [self.view addSubview:controller.view];
+    [self addChildViewController:controller];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

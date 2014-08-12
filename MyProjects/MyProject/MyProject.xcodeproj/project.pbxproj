@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A753068B19889CBB00DD9857 /* MPTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = A753068A19889CBB00DD9857 /* MPTextFiled.m */; };
 		A753068F1988D3E800DD9857 /* MPUITest.m in Sources */ = {isa = PBXBuildFile; fileRef = A753068E1988D3E800DD9857 /* MPUITest.m */; };
+		A762B9931999F1D2004733EB /* MPGCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A762B9921999F1D2004733EB /* MPGCDTest.m */; };
+		A7646C761990CB7100233B0D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7646C751990CB7100233B0D /* JavaScriptCore.framework */; };
 		A79A509C19873EF00033C3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A509B19873EF00033C3F1 /* Foundation.framework */; };
 		A79A509E19873EF00033C3F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A509D19873EF00033C3F1 /* CoreGraphics.framework */; };
 		A79A50A019873EF00033C3F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A509F19873EF00033C3F1 /* UIKit.framework */; };
@@ -64,6 +66,9 @@
 		A753068A19889CBB00DD9857 /* MPTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTextFiled.m; sourceTree = "<group>"; };
 		A753068D1988D3E800DD9857 /* MPUITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUITest.h; sourceTree = "<group>"; };
 		A753068E1988D3E800DD9857 /* MPUITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUITest.m; sourceTree = "<group>"; };
+		A762B9911999F1D2004733EB /* MPGCDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGCDTest.h; sourceTree = "<group>"; };
+		A762B9921999F1D2004733EB /* MPGCDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGCDTest.m; sourceTree = "<group>"; };
+		A7646C751990CB7100233B0D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		A79A509819873EF00033C3F1 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79A509B19873EF00033C3F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A79A509D19873EF00033C3F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7646C761990CB7100233B0D /* JavaScriptCore.framework in Frameworks */,
 				A79A509E19873EF00033C3F1 /* CoreGraphics.framework in Frameworks */,
 				A79A50A019873EF00033C3F1 /* UIKit.framework in Frameworks */,
 				A79A509C19873EF00033C3F1 /* Foundation.framework in Frameworks */,
@@ -176,6 +182,15 @@
 			name = UITest;
 			sourceTree = "<group>";
 		};
+		A762B9901999F1A2004733EB /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A762B9911999F1D2004733EB /* MPGCDTest.h */,
+				A762B9921999F1D2004733EB /* MPGCDTest.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
 		A79A508F19873EF00033C3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +213,7 @@
 		A79A509A19873EF00033C3F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7646C751990CB7100233B0D /* JavaScriptCore.framework */,
 				A79A509B19873EF00033C3F1 /* Foundation.framework */,
 				A79A509D19873EF00033C3F1 /* CoreGraphics.framework */,
 				A79A509F19873EF00033C3F1 /* UIKit.framework */,
@@ -209,6 +225,7 @@
 		A79A50A119873EF00033C3F1 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				A762B9901999F1A2004733EB /* GCD */,
 				A7BB155B1989F42300D54C00 /* AFNetWorking */,
 				A753068C1988D3CE00DD9857 /* UITest */,
 				A753068819889C9D00DD9857 /* UITextField */,
@@ -449,6 +466,7 @@
 				A7BB1590198A146600D54C00 /* UIProgressView+AFNetworking.m in Sources */,
 				A79A50DD198779390033C3F1 /* MPAlignButton.m in Sources */,
 				A7BB158E198A146600D54C00 /* UIButton+AFNetworking.m in Sources */,
+				A762B9931999F1D2004733EB /* MPGCDTest.m in Sources */,
 				A7BB1589198A146600D54C00 /* AFURLResponseSerialization.m in Sources */,
 				A7BB15571989E71D00D54C00 /* MPTextImputDelegate.m in Sources */,
 				A79A50D51987434D0033C3F1 /* MPUniversal.m in Sources */,
@@ -591,8 +609,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				INFOPLIST_FILE = "MyProject/MyProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -604,8 +629,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				INFOPLIST_FILE = "MyProject/MyProject-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
